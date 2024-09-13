@@ -1,0 +1,37 @@
+{
+  "name": "food-order",
+  "version": "1.0.0",
+  "description": "\"Food-Order App making using React js\"",
+  
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/mo-arman/Food-Order.git)"
+  },
+  "keywords": [
+    "\"Food-App",
+    "F&D",
+    "Foor",
+    "service",
+    "Food",
+    "Delivery\""
+  ],
+  "author": "\"Mohammad Arman\"",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserlist":[
+    "last 2 chrome version",
+    "last 2 firefox version"
+  ]
+}
