@@ -30,3 +30,5 @@ Also learn the mapping in cards
 - Props - passing arguments to a function - Use Destructuring & Spread operator
 - Render your cards with dynamic data of restaurants
 - Use Array.map to render all the restaurants
+
+# Create Class Based Component
