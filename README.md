@@ -32,3 +32,4 @@ Also learn the mapping in cards
 - Use Array.map to render all the restaurants
 
 # Create Class Based Component
+ - userClass.java
