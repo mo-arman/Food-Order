@@ -2,7 +2,7 @@ import { useState } from "react";
 import { LOGO_IMG } from "../utils/constants";
 
 const Header = () => {
-  const [btnNameReact, setBtnNameReact] = useState();
+  const [btnNameReact, setBtnNameReact] = useState("Login");
 
   return (
     <div className="header">
