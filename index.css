@@ -86,13 +86,27 @@ button:hover {
     transition: all 500ms ease;
   }
 }
-
 .res-container{
-  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: auto;
+  /* border: 1px solid black; */
+  position: relative;
+  left: 31px;
+}
+.res-card{
+  /* height: 300px; */
   width: 200px;
+  /* border: 1px solid black; */
+  margin: 5px;
+  background-color: #f0f0f0f0;
+  border-radius: 5px;
+ 
+}
+.res-card:hover{
   border: 1px solid black;
 }
-
 .search{
   margin: 10px;
 }
@@ -100,5 +114,6 @@ button:hover {
   height: 200px;
   width: 195px;
   padding: 5px;
+  border-radius: 15px;
   
 }
