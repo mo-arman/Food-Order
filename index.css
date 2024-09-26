@@ -86,3 +86,19 @@ button:hover {
     transition: all 500ms ease;
   }
 }
+
+.res-container{
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.search{
+  margin: 10px;
+}
+.card{
+  height: 200px;
+  width: 195px;
+  padding: 5px;
+  
+}
