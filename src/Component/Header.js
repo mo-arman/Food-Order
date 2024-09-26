@@ -6,18 +6,15 @@ const Header = () => {
       <>
         <header className="header">
           <div className="left">
-            <img src={logo} alt="Logo" />
+            <img className="logo" src={logo} alt="Logo" />
           </div>
-          <div className="center">
-            <input
-              className="input"
-              type="text"
-              placeholder="Search anything you want..."
-            />
-            <button type="submit">
-              Submit
-              <i className="fa fa-search"></i>
-            </button>
+          <div className="nav-items">
+             <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Cart</li>
+             </ul>
           </div>
           
         </header>
