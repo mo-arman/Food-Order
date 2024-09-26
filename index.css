@@ -206,7 +206,22 @@
   padding: 0 10px 3px 0;
 }
 
+.shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 2%;
+  
+}
 
+.shimmer-card{
+  height: 300px;
+  width: 200px;
+  background-color: #f0f0f0f0;
+  border-radius: 5px;
+  box-shadow: -1px 5px 10px 5px rgba(212, 183, 183, 0.2);
+  margin: 5px;
+}
 .footer {
   margin: 10px;
   width: auto;
@@ -216,7 +231,9 @@
   border-radius: 5px;
   box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
 }
-
+.online-status{
+  color: chartreuse;
+}
 .footer > i {
   padding: 0 5px 0;
   font-size: smaller;

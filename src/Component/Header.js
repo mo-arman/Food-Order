@@ -1,8 +1,11 @@
 import { useState } from "react";
 import logo from "../../logo.png";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Header = () => {
   const [btnName, setBtnName] = useState("Login");
+
+  const onlineStatus = useOnlineStatus();
   return (
     <>
       <header className="header">
@@ -11,6 +14,9 @@ const Header = () => {
         </div>
         <div className="nav-items">
           <ul>
+            <li className="online-status">
+              Online Status : {onlineStatus ? "🌍" : "🐍"}
+            </li>
             <li>Home</li>
             <li>About Us</li>
             <li>Contact Us</li>

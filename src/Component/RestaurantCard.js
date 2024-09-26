@@ -10,7 +10,7 @@ const RestaurantCard = (props) => {
     costForTwo,
     deliveryTime,
     area,
-  } = resData?.data;
+  } = resData?.info;
   // const {name, cuisines} = resData?.data;
   console.log(props);
   return (
@@ -32,8 +32,8 @@ const RestaurantCard = (props) => {
         </h4>
         {/* <h4>{lastMileTravelString}</h4>
         <h4>{costForTwoString}</h4> */}
-        <h4>{costForTwo / 100}</h4>
-        <h4>{deliveryTime}minutes</h4>
+        <h4>{costForTwo}</h4>
+        {/* <h4>{deliveryTime}minutes</h4> */}
       </span>
     </div>
   );
