@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "../../logo.png";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [btnName, setBtnName] = useState("Login");
@@ -17,17 +18,22 @@ const Header = () => {
             <li className="online-status">
               Online Status : {onlineStatus ? "🌍" : "🐍"}
             </li>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Cart</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About us</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact Us</Link>
+            </li>
+            <li>
+              <Link to="cart">Cart</Link>
+            </li>
             <button
-            className="button-86"
+              className="button-86"
               onClick={() => {
-                
-                 btnName == "Login"
-                  ? setBtnName("Logout")
-                  : setBtnName("Login");
+                btnName == "Login" ? setBtnName("Logout") : setBtnName("Login");
               }}
             >
               {btnName}
